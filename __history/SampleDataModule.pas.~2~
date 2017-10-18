@@ -1,0 +1,25 @@
+unit SampleDataModule;
+
+interface
+
+uses
+  System.SysUtils, System.Classes;
+
+type
+  TFirstDataModule = class(TDataModule)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FirstDataModule: TFirstDataModule;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+end.
